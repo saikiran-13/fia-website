@@ -1,14 +1,14 @@
-import Shantanu from '../../assets/shantanu.jpg'
-import Ajay from "../../assets/Ajay.jpg"
-import Ravitej from "../../assets/Ravitej.jpg"
-import Ravi from "../../assets/Ravi.jpg"
-import Lokesh from "../../assets/Lokesh.jpg"
-import Prabhu from "../../assets/Prabhu.jpg"
-import Nandhu from "../../assets/Nandhu.jpg"
-import Prachi from "../../assets/Prachi.jpg"
-import Dj from "../../assets/Dj.jpg"
-import Mahesh from "../../assets/Mahesh.jpg"
-import Shylendra from "../../assets/Shylu.jpg"
+import Shantanu from "../../../assets/shantanu.jpg";
+import Ajay from "../../../assets/Ajay.jpg";
+import Ravitej from "../../../assets/Ravitej.jpg";
+import Ravi from "../../../assets/Ravi.jpg";
+import Lokesh from "../../../assets/Lokesh.jpg";
+import Prabhu from "../../../assets/Prabhu.jpg";
+import Nandhu from "../../../assets/Nandhu.jpg";
+import Prachi from "../../../assets/Prachi.jpg";
+import Dj from "../../../assets/Dj.jpg";
+import Mahesh from "../../../assets/Mahesh.jpg";
+import Shylendra from "../../../assets/Shylu.jpg";
 
 export const team = [
   {
@@ -55,7 +55,7 @@ export const team = [
       {
         name: "Ramya Muralidaran ",
         role: "Treasurer",
-        Image: ,
+        Image: "",
         Email: "muralir@clarkson.edu",
         Linkedin: "",
         Instagram: "",
@@ -78,10 +78,12 @@ export const team = [
         role: "Digital Coordinator",
         Image: Prabhu,
         Email: "vandrap@clarkson.edu",
-        Linkedin: "https://www.linkedin.com/in/vandranki-prabhu-kiran-4b75b4215/",
+        Linkedin:
+          "https://www.linkedin.com/in/vandranki-prabhu-kiran-4b75b4215/",
         Instagram: "https://www.instagram.com/prabhu_prabhu107/",
       },
-      { name: "Poorna Raavi", 
+      {
+        name: "Poorna Raavi",
         role: "Cultural Coordinator",
         Image: Nandhu,
         Email: "raavip@clarkson.edu",
@@ -96,13 +98,13 @@ export const team = [
         Linkedin: "https://www.linkedin.com/in/prachi-l-819250286/",
         Instagram: "https://www.instagram.com/puneri_prachiiii_",
       },
-      { name: "Devras Jadhav", 
+      {
+        name: "Devras Jadhav",
         role: "Student affairs and Public relations",
         Image: Dj,
         Email: "jadhavd@clarkson.edu",
         Linkedin: "https://www.linkedin.com/in/devras-jadhav-380202113/",
-        Instagram: "https://www.instagram.com/devras.jadhav", 
-      
+        Instagram: "https://www.instagram.com/devras.jadhav",
       },
       {
         name: "Mahesh Darimireddy",
