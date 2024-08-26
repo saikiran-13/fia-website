@@ -1,6 +1,8 @@
 
 import './App.css'
 import './index.css'
+import React, { useEffect } from 'react';
+
 import Layout from './layout'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -11,8 +13,19 @@ import Footer from './components/Footer'
 import ImageGalleryPage from './ImageGalleryPage'
 
 import { TabProvider } from './provider/TabProvider';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      delay: 100,
+      duration: 1500,
+      once: true,
+    });
+  }, []);
 
   return (
     <Router>
