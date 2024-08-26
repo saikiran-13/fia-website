@@ -1,9 +1,8 @@
 import React from 'react';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
-
+import { useNavigate } from 'react-router-dom';
 const ImageMasonry = ({ images }) => {
-    console.log('images', images)
-
+    const history = useNavigate();
     return (
         <div className="p-4 w-full bg-color3 rounded-md shadow-lg shadow-color2">
             <ResponsiveMasonry
@@ -16,12 +15,15 @@ const ImageMasonry = ({ images }) => {
             >
                 <Masonry gutter="16px">
                     {images.map((image, index) => (
-                        <img
-                            key={index}
-                            src={image.src}
-                            alt={image.alt || `Image ${index + 1}`}
-                            className="w-full h-auto rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
-                        />
+                        <div onClick={() => history(`/image-gallery/${image.value}`)}>
+                            <img
+                                key={index}
+                                src={image.src}
+                                alt={image.alt || `Image ${index + 1}`}
+                                className="w-full h-auto rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+                            />
+                        </div>
+
                     ))}
                 </Masonry>
             </ResponsiveMasonry>
