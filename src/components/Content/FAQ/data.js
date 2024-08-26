@@ -1,6 +1,6 @@
 export const faqs = [
   {
-    question: "What is Flowbite?",
+    question: "how is prabu?",
     answer:
       "Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.",
   },

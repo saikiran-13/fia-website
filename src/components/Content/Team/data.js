@@ -17,7 +17,7 @@ export const team = [
       {
         name: "Dr. Shantanu Sur",
         role: "Faculty Advisor",
-        Image: Shantanu,
+        image: Shantanu,
         Email: "ssur@clarkson.edu",
         Linkedin: "https://www.linkedin.com/in/shantanu-sur-a007255b/",
         Clarkson_Profile_link: "https://www.clarkson.edu/people/shantanu-sur",
@@ -25,7 +25,7 @@ export const team = [
       {
         name: "Dr. Ajay Sonar",
         role: "Faculty Advisor",
-        Image: Ajay,
+        image: Ajay,
         Email: "asonar@clarkson.edu",
         Linkedin: "https://www.linkedin.com/in/ajay-sonar-472161145/",
         Clarkson_Profile_link:
@@ -39,7 +39,7 @@ export const team = [
       {
         name: "Ravitej Venkataswamy",
         role: "President",
-        Image: Ravitej,
+        image: Ravitej,
         Email: "vr@clarkson.edu",
         Linkedin: "http://www.linkedin.com/in/ravitejv",
         Instagram: "https://www.instagram.com/superbeliever",
@@ -47,7 +47,7 @@ export const team = [
       {
         name: "Ravi Mandewall",
         role: "Vice-President",
-        Image: Ravi,
+        image: Ravi,
         Email: "ravi@clarkson.edu",
         Linkedin: "https://www.linkedin.com/in/ravi-mandewall-6b1948308/",
         Instagram: "https://www.instagram.com/mandewall_ravi",
@@ -55,7 +55,7 @@ export const team = [
       {
         name: "Ramya Muralidaran ",
         role: "Treasurer",
-        Image: "",
+        image: "",
         Email: "muralir@clarkson.edu",
         Linkedin: "",
         Instagram: "",
@@ -63,7 +63,7 @@ export const team = [
       {
         name: "Lokesh Saravana",
         role: "Executive Secretary",
-        Image: Lokesh,
+        image: Lokesh,
         Email: "saraval@clarkson.edu",
         Linkedin: "https://www.linkedin.com/in/lokesh-saravana-0a7957173/",
         Instagram: "https://www.instagram.com/saravana_lokesh18",
@@ -76,7 +76,7 @@ export const team = [
       {
         name: "Prabhu Kiran Vandranki",
         role: "Digital Coordinator",
-        Image: Prabhu,
+        image: Prabhu,
         Email: "vandrap@clarkson.edu",
         Linkedin:
           "https://www.linkedin.com/in/vandranki-prabhu-kiran-4b75b4215/",
@@ -85,7 +85,7 @@ export const team = [
       {
         name: "Poorna Raavi",
         role: "Cultural Coordinator",
-        Image: Nandhu,
+        image: Nandhu,
         Email: "raavip@clarkson.edu",
         Linkedin: "https://www.linkedin.com/in/psvl-nandu-r/",
         Instagram: "https://www.instagram.com/psvl_nandu",
@@ -93,7 +93,7 @@ export const team = [
       {
         name: "Prachi Lotake",
         role: "Decoration and creativity",
-        Image: Prachi,
+        image: Prachi,
         Email: "lotakep@clarkson.edu",
         Linkedin: "https://www.linkedin.com/in/prachi-l-819250286/",
         Instagram: "https://www.instagram.com/puneri_prachiiii_",
@@ -101,7 +101,7 @@ export const team = [
       {
         name: "Devras Jadhav",
         role: "Student affairs and Public relations",
-        Image: Dj,
+        image: Dj,
         Email: "jadhavd@clarkson.edu",
         Linkedin: "https://www.linkedin.com/in/devras-jadhav-380202113/",
         Instagram: "https://www.instagram.com/devras.jadhav",
@@ -109,7 +109,7 @@ export const team = [
       {
         name: "Mahesh Darimireddy",
         role: "Student affairs and Public relations",
-        Image: Mahesh,
+        image: Mahesh,
         Email: "darimim@clarkson.edu",
         Linkedin: "https://www.linkedin.com/in/mahesh-darimireddy-15606b252/",
         Instagram: "https://www.instagram.com/mahesh._.mahii",
@@ -117,7 +117,7 @@ export const team = [
       {
         name: "Shylendra Sai Bangaru",
         role: "Cultural Coordinator",
-        Image: Shylendra,
+        image: Shylendra,
         Email: "bangars@clarkson.edu",
         Linkedin: "https://www.linkedin.com/in/shylendra-bangaru-138051215/",
         Instagram: "https://www.instagram.com/son_of_narayanarao.__",
