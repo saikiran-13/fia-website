@@ -9,7 +9,6 @@ import { Tabs } from './Tabs'
 
 
 const Events = () => {
-    console.log('upcomingEventsIcon', upcomingEventsIcon)
 
     const tabs = [{
         label: 'Upcoming',
