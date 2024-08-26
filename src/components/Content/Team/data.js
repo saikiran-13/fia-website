@@ -1,15 +1,14 @@
-/**
- *import prabhuimg from '../../assets/prabhu.png'
-
- * {
- * name: prabhu,
- * role: faculty,
- * image: prabhuimg,
- * links: {
- * instagram: url,
- * linkedin: url,
- * }}
- */
+import Shantanu from '../../assets/shantanu.jpg'
+import Ajay from "../../assets/Ajay.jpg"
+import Ravitej from "../../assets/Ravitej.jpg"
+import Ravi from "../../assets/Ravi.jpg"
+import Lokesh from "../../assets/Lokesh.jpg"
+import Prabhu from "../../assets/Prabhu.jpg"
+import Nandhu from "../../assets/Nandhu.jpg"
+import Prachi from "../../assets/Prachi.jpg"
+import Dj from "../../assets/Dj.jpg"
+import Mahesh from "../../assets/Mahesh.jpg"
+import Shylendra from "../../assets/Shylu.jpg"
 
 export const team = [
   {
@@ -17,11 +16,20 @@ export const team = [
     members: [
       {
         name: "Dr. Shantanu Sur",
-        role: "Faculty Advisors",
+        role: "Faculty Advisor",
+        Image: Shantanu,
+        Email: "ssur@clarkson.edu",
+        Linkedin: "https://www.linkedin.com/in/shantanu-sur-a007255b/",
+        Clarkson_Profile_link: "https://www.clarkson.edu/people/shantanu-sur",
       },
       {
         name: "Dr. Ajay Sonar",
-        role: "",
+        role: "Faculty Advisor",
+        Image: Ajay,
+        Email: "asonar@clarkson.edu",
+        Linkedin: "https://www.linkedin.com/in/ajay-sonar-472161145/",
+        Clarkson_Profile_link:
+          "https://www.clarkson.edu/people/shantanu-surhttps://www.clarkson.edu/people/ajay-sonar",
       },
     ],
   },
@@ -31,15 +39,34 @@ export const team = [
       {
         name: "Ravitej Venkataswamy",
         role: "President",
+        Image: Ravitej,
+        Email: "vr@clarkson.edu",
+        Linkedin: "http://www.linkedin.com/in/ravitejv",
+        Instagram: "https://www.instagram.com/superbeliever",
       },
       {
         name: "Ravi Mandewall",
         role: "Vice-President",
+        Image: Ravi,
+        Email: "ravi@clarkson.edu",
+        Linkedin: "https://www.linkedin.com/in/ravi-mandewall-6b1948308/",
+        Instagram: "https://www.instagram.com/mandewall_ravi",
       },
-      { name: "Ponsubha Sivabalan", role: "Treasurer" },
+      {
+        name: "Ramya Muralidaran ",
+        role: "Treasurer",
+        Image: ,
+        Email: "muralir@clarkson.edu",
+        Linkedin: "",
+        Instagram: "",
+      },
       {
         name: "Lokesh Saravana",
         role: "Executive Secretary",
+        Image: Lokesh,
+        Email: "saraval@clarkson.edu",
+        Linkedin: "https://www.linkedin.com/in/lokesh-saravana-0a7957173/",
+        Instagram: "https://www.instagram.com/saravana_lokesh18",
       },
     ],
   },
@@ -47,35 +74,51 @@ export const team = [
     department: "Coordinators",
     members: [
       {
-        name: "Ram Nikhil Suryadevara",
-        role: "Social media and Poster design",
-      },
-      {
         name: "Prabhu Kiran Vandranki",
         role: "Digital Coordinator",
+        Image: Prabhu,
+        Email: "vandrap@clarkson.edu",
+        Linkedin: "https://www.linkedin.com/in/vandranki-prabhu-kiran-4b75b4215/",
+        Instagram: "https://www.instagram.com/prabhu_prabhu107/",
       },
-      { name: "Tarit Sehdev", role: "Digital Coordinator" },
+      { name: "Poorna Raavi", 
+        role: "Cultural Coordinator",
+        Image: Nandhu,
+        Email: "raavip@clarkson.edu",
+        Linkedin: "https://www.linkedin.com/in/psvl-nandu-r/",
+        Instagram: "https://www.instagram.com/psvl_nandu",
+      },
       {
         name: "Prachi Lotake",
         role: "Decoration and creativity",
+        Image: Prachi,
+        Email: "lotakep@clarkson.edu",
+        Linkedin: "https://www.linkedin.com/in/prachi-l-819250286/",
+        Instagram: "https://www.instagram.com/puneri_prachiiii_",
+      },
+      { name: "Devras Jadhav", 
+        role: "Student affairs and Public relations",
+        Image: Dj,
+        Email: "jadhavd@clarkson.edu",
+        Linkedin: "https://www.linkedin.com/in/devras-jadhav-380202113/",
+        Instagram: "https://www.instagram.com/devras.jadhav", 
+      
       },
       {
-        name: "Prasanna Ganesh",
-        role: "Decoration and creativity",
+        name: "Mahesh Darimireddy",
+        role: "Student affairs and Public relations",
+        Image: Mahesh,
+        Email: "darimim@clarkson.edu",
+        Linkedin: "https://www.linkedin.com/in/mahesh-darimireddy-15606b252/",
+        Instagram: "https://www.instagram.com/mahesh._.mahii",
       },
       {
         name: "Shylendra Sai Bangaru",
         role: "Cultural Coordinator",
-      },
-      { name: "Poorna Raavi", role: "Cultural Coordinator" },
-      {
-        name: "Srikant Chowhan",
-        role: "Student affairs and Public relations",
-      },
-      { name: "Devras Jadhav", role: "Student affairs and Public relations" },
-      {
-        name: "Mahesh Darimireddy",
-        role: "Student affairs and Public relations",
+        Image: Shylendra,
+        Email: "bangars@clarkson.edu",
+        Linkedin: "https://www.linkedin.com/in/shylendra-bangaru-138051215/",
+        Instagram: "https://www.instagram.com/son_of_narayanarao.__",
       },
     ],
   },
