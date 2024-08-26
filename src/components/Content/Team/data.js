@@ -4,7 +4,7 @@ export const team = [
     members: [
       {
         name: "Dr. Shantanu Sur",
-        role: "",
+        role: "Faculty Advisors",
       },
       {
         name: "Dr. Ajay Sonar",
