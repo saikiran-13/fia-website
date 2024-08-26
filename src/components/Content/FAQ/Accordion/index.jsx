@@ -17,7 +17,7 @@ const AccordionItem = ({ faq, index }) => {
             <h2 id={`accordion-color-heading-${index}`}>
                 <button
                     type="button"
-                    className={`flex items-center justify-between w-full p-5 font-medium text-color4 border-b-0  hover:bg-blue-100 dark:hover:bg-gray-800 gap-3 ${isOpen ? 'bg-blue-100 dark:bg-gray-800 text-blue-600 dark:text-white' : ''}`}
+                    className={`flex items-center justify-between w-full p-5 font-medium text-color4 border-b-0  hover:bg-color2  gap-3 ${isOpen ? 'bg-color2  text-color4 ' : ''}`}
                     onClick={() => setIsOpen(!isOpen)}
                     aria-expanded={isOpen}
                     aria-controls={`accordion-color-body-${index}`}
