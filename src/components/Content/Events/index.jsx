@@ -12,17 +12,17 @@ const Events = () => {
 
     const tabs = [{
         label: 'Upcoming',
-        value: 'Upcoming',
+        value: 'upcoming',
         Cmp: <Timeline events={events.Upcoming} icon={upcomingEventsIcon} />
     }, {
         label: 'Past',
-        value: 'Past',
+        value: 'past',
         Cmp: <Timeline events={events.Past} icon={pastEventsIcon} />
     }]
 
 
     return (
-        <div className='flex flex-col w-full h-fit px-20 py-12 justify-center items-center gap-10'>
+        <div id="events" className='flex flex-col w-full h-fit px-20 py-12 justify-center items-center gap-10'>
             <Title title={'Events'} />
             <Tabs tabs={tabs} />
         </div>
