@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-
+import { useTab } from "../../../../provider/TabProvider";
 export function Tabs({ tabs }) {
-    const [activeTab, setActiveTab] = useState(tabs[0]?.value || "");
+    const { activeTab, setActiveTab } = useTab();
 
     return (
         <div className="flex flex-col w-full items-center justify-center">
