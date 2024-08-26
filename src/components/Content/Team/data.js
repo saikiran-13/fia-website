@@ -1,3 +1,16 @@
+/**
+ *import prabhuimg from '../../assets/prabhu.png'
+
+ * {
+ * name: prabhu,
+ * role: faculty,
+ * image: prabhuimg,
+ * links: {
+ * instagram: url,
+ * linkedin: url,
+ * }}
+ */
+
 export const team = [
   {
     department: "Faculty Advisors",
