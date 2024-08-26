@@ -8,6 +8,8 @@ import Header from './components/Header'
 import Content from './components/Content'
 import Footer from './components/Footer'
 
+import ImageGalleryPage from './ImageGalleryPage'
+
 // import { ImageProvider } from './provider/ImageProvider';
 
 function App() {
@@ -16,7 +18,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Layout header={<Header />} content={<Content />} footer={<Footer />} />} />
-        {/* <Route path="/image-gallery" element={<ImageGalleryPage />} /> */}
+        <Route path="/image-gallery/:imgId" element={<ImageGalleryPage />} />
       </Routes>
     </Router>
   )

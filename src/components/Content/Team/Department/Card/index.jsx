@@ -3,7 +3,7 @@ import React from 'react'
 const Card = ({ name, role, image }) => {
     return (
         <div class="min-w-fit text-center mr-10 mb-10">
-            <img class="mx-auto mb-4 w-36 h-36 rounded-full" src={"https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png"} alt="Joseph Avatar" />
+            <img class="mx-auto mb-4 w-36 h-36 rounded-full" src={image} alt="Joseph Avatar" />
             <h3 class="mb-1 text-xl font-bold tracking-tight text-color5">
                 <a href="#">{name}</a>
             </h3>
