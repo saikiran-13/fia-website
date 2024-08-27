@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import parse from 'html-react-parser'
 const Accordion = ({ faqs }) => {
     return (
         <div className="w-[600px] border-1 rounded-lg shadow-md shadow-color3 border-color4">
@@ -40,7 +41,7 @@ const AccordionItem = ({ faq, index }) => {
                 aria-labelledby={`accordion-color-heading-${index}`}
             >
                 <div className="p-5">
-                    <p className="mb-2 text-color3">{faq.answer}</p>
+                    <p className="mb-2 text-color3">{parse(faq.answer)}</p>
                 </div>
             </div>
         </div>

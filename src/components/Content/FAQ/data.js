@@ -1,7 +1,5 @@
-{
-  /*import clarksonShuttle from "../../../assets/Clarkson_Shuttle.jpg";
-import sunyPotsdamShuttle from "../../../assets/Suny_Potsdam.jpg"; */
-}
+import clarksonShuttle from "../../../assets/Clarkson_Shuttle.jpg";
+import sunyPotsdamShuttle from "../../../assets/Suny_Potsdam.jpg";
 
 export const faqs = [
   {
@@ -34,21 +32,38 @@ export const faqs = [
   },
   {
     question: "What is the most convenient way from India to Clarkson?",
-    answer:
-      "To travel from India to Clarkson University, the most convenient route is to fly into Syracuse, New York. Clarkson is located in Potsdam, a small town in northern New York state, about eight and a half hours by bus from New York City.Travel Plan: •	Fly to Syracuse: After landing in a major U.S. city like New York City (JFK) or Chicago (ORD), take a connecting flight to Syracuse Hancock International Airport (SYR), the closest major airport to Clarkson University. •	From Syracuse to Potsdam: 	By Bus: Take a Trailways bus from Syracuse to Potsdam. The earliest bus departs around 7:15 AM, arriving at 10:15 AM. The latest bus leaves around 3:45 PM, arriving at 7:05 PM. The journey takes about four hours, with tickets starting at $47. The bus stop is just outside the airport terminal. 	By Car: Alternatively, rent a car at Syracuse Airport. The drive to Potsdam takes about two and a half hours, offering more flexibility, especially with significant luggage or for a direct trip. This route is frequently used by students traveling to Clarkson University.",
+    answer: ` <span>
+        To travel from India to Clarkson University, the most convenient route
+        is to fly into Syracuse, New York. Clarkson is located in Potsdam, a
+        small town in northern New York state, about eight and a half hours by
+        bus from New York City.<br></br>
+        <b> Travel Plan:</b>
+        <br></br>• Fly to Syracuse: After landing in a major U.S. city like New
+        York City (JFK) or Chicago (ORD), take a connecting flight to Syracuse
+        Hancock International Airport (SYR), the closest major airport to
+        Clarkson University.<br></br> • From Syracuse to Potsdam: <br/>&nbsp;&nbsp;&nbsp;&nbsp;&#10003; By Bus: Take
+        a Trailways bus from Syracuse to Potsdam. The earliest bus departs
+        around 7:15 AM, arriving at 10:15 AM. The latest bus leaves around 3:45
+        PM, arriving at 7:05 PM. The journey takes about four hours, with
+        tickets starting at $47. The bus stop is just outside the airport
+        terminal.<br/> &nbsp;&nbsp;&nbsp;&nbsp;&#10003; By Car: Alternatively, rent a car at Syracuse Airport. The
+        drive to Potsdam takes about two and a half hours, offering more
+        flexibility, especially with significant luggage or for a direct trip.
+        This route is frequently used by students traveling to Clarkson
+        University.
+      </span>`,
+  },
+  {
+    question: "What is the bus schedule for CLARKSON SHUTTLE & SUNY POTSDAM?",
+    answer: `
+      <h2><b>Clarkson and SUNY Potsdam Bus Schedules</b></h2>
+      <div className="flex flex-col gap-4 items-center justify-center mt-4">
+        <h3><b>Clarkson Shuttle</b></h3>
+        <img src=${clarksonShuttle} alt="Clarkson Shuttle Schedule" className="object-contain"/>
+      </div>
+      <div className="flex flex-col gap-4 items-center justify-center mt-4">
+        <h3><b>SUNY Potsdam Bear Shuttle</b></h3>
+        <img src=${sunyPotsdamShuttle} alt="SUNY Potsdam Shuttle Schedule" className="object-contain" />
+      </div>`,
   },
 ];
-
-{
-  /* 
-      <h2>Clarkson and SUNY Potsdam Bus Schedules</h2>
-      <div>
-        <h3>Clarkson Shuttle</h3>
-        <img src={clarksonShuttle} alt="Clarkson Shuttle Schedule" />
-      </div>
-      <div>
-        <h3>SUNY Potsdam Bear Shuttle</h3>
-        <img src={sunyPotsdamShuttle} alt="SUNY Potsdam Shuttle Schedule" />
-      </div>
-*/
-}
