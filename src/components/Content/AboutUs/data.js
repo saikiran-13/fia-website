@@ -9,12 +9,12 @@ export const data = [
   },
   {
     heading: "Purpose and Goals",
-    description: `At Friends of India Association, our purpose is to provide a platform for Indian students and scholars to connect, learn, and grow together. We are dedicated to creating an environment that fosters friendship, inclusivity, and cultural pride. Our goals include:
-    1. Facilitating cultural exchange through a variety of events, performances, and workshops
-    2. Offering support and guidance to Indian students and scholars, ensuring their smooth transition and successful academic journey
-    3. Organizing social gatherings and networking opportunities to build lasting friendships and professional connections
-    4. Promoting awareness and appreciation of Indian traditions, languages, arts, and customs
-    5. Collaborating with other organizations and institutions to strengthen the Indian community in the USA`,
+    description: `At FIA, we aim to create a platform for Indian students and scholars to connect, learn, and grow. We foster friendship, inclusivity, and cultural pride. Our goals include:
+1.Facilitating cultural exchange through events and workshops
+2.Supporting Indian students and scholars for a smooth academic journey
+3.Organizing gatherings and networking to build lasting connections
+4.Promoting Indian traditions, languages, arts, and customs
+5.Collaborating with other organizations to strengthen the Indian community in the USA`,
     logo: goals,
   },
 ];

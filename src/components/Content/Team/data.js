@@ -9,6 +9,7 @@ import Prachi from "../../../assets/Prachi.jpg";
 import Dj from "../../../assets/Dj.jpg";
 import Mahesh from "../../../assets/Mahesh.jpg";
 import Shylendra from "../../../assets/Shylu.jpg";
+import Ramya from "../../../assets/Ramya.jpg";
 
 export const team = [
   {
@@ -55,10 +56,10 @@ export const team = [
       {
         name: "Ramya Muralidaran ",
         role: "Treasurer",
-        image: "",
+        image: Ramya,
         Email: "muralir@clarkson.edu",
-        Linkedin: "",
-        Instagram: "",
+        Linkedin: "http://www.linkedin.com/in/ramya-muralidaran-058aa9266",
+        Instagram: "https://www.instagram.com/ramyas_31",
       },
       {
         name: "Lokesh Saravana",
