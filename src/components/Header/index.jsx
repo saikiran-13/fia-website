@@ -4,7 +4,7 @@ import arrowIcon from '../../assets/arrow.png'
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = React.useState(false);
-    const whatsappNumber = "+1 (315) 603-8377"; // Your WhatsApp number in international format
+    const whatsappNumber = "+13156038377"; // Your WhatsApp number in international format
     const predefinedMessage = "Hello! I'm interested in joining your organization.";
 
 
