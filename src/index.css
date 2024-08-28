@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+
+/* For all scrollable elements in your app */
+.scrollable-content {
+  overflow: hidden; /* Hide native scrollbar in Chrome, Safari, etc. */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar in IE and Edge */
+}
+
+.scrollable-content::-webkit-scrollbar {
+  display: none; /* Hides scrollbar in WebKit-based browsers */
+}
+
+
 .glassmorphism-hover {
   transition: all 0.3s ease-in-out;
 }
@@ -12,5 +25,7 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
  /* Change border color to color5 on hover */
 }
+
+
 
 

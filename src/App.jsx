@@ -16,6 +16,8 @@ import { TabProvider } from './provider/TabProvider';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
+
 function App() {
 
   useEffect(() => {

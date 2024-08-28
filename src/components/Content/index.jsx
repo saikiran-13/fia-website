@@ -6,17 +6,22 @@ import Team from './Team'
 import Gallery from './Gallery'
 import Testimonials from './Testimonials'
 import FAQ from './FAQ'
+
+import PerfectScrollbar from 'react-perfect-scrollbar';
+import 'react-perfect-scrollbar/dist/css/styles.css';
 const Content = () => {
     return (
-        <div className='flex flex-col gap-5'>
-            <Home />
-            <AboutUs />
-            <Events />
-            <Team />
-            <Gallery />
-            <Testimonials />
-            <FAQ />
-        </div>
+        <PerfectScrollbar>
+            <div className='flex flex-col gap-5 '>
+                <Home />
+                <AboutUs />
+                <Events />
+                <Team />
+                <Gallery />
+                <Testimonials />
+                <FAQ />
+            </div>
+        </PerfectScrollbar>
     )
 }
 
