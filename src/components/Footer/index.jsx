@@ -16,12 +16,7 @@ const Footer = () => {
         >
             <div className="flex relative z-10 px-4 w-full text-left justify-between items-end text-color1 pb-2">
                 <div className='w-[40%] ml-2 font-medium'>
-                    <div className='flex gap-2 text-xl'>
-                        <Icon icon={address.icon} />
-                        <span>{address.label}</span>
-                        <span>{address.value}</span>
-                    </div>
-                    <div className="mb-6 mt-2">
+                    <div className="mb-6">
                         <h2 className="text-lg font-semibold mb-4">Contact Us</h2>
                         {connectList.map((item, index) => (
                             <div className='flex text-color6 font-medium' key={index} >
@@ -31,6 +26,11 @@ const Footer = () => {
                                 </div>
                             </div>
                         ))}
+                        <div className='flex gap-2 text-xl mt-2 pr-8'>
+                            <Icon icon={address.icon} />
+                            <span>{address.label}</span>
+                            <span>{address.value}</span>
+                        </div>
                     </div>
 
                 </div>
@@ -44,6 +44,7 @@ const Footer = () => {
                     </div>
                     <span>&copy; Friends of India Association</span>
                 </div>
+
 
                 <div className='w-[30%] flex flex-col gap-1'>
                     <h3 className="text-lg font-semibold mb-4">More Information:</h3>

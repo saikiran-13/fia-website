@@ -18,7 +18,7 @@ export const icons = {
   linkedin: linkedin,
   whatsapp: whatsapp,
   pinterest: pinterest,
-  gmail: gmail,
+  email: gmail,
   discord: discord,
   telegram: telegram,
   location: location,
