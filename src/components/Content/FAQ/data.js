@@ -50,20 +50,27 @@ export const faqs = [
         drive to Potsdam takes about two and a half hours, offering more
         flexibility, especially with significant luggage or for a direct trip.
         This route is frequently used by students traveling to Clarkson
-        University.
+        University.<br></br>
+        To see trailways schedules:&nbsp; <a style="color:#0f3375;" href="https://trailways.com/schedules/bus-from-syracuse-ny-to-potsdam-ny" target="_blank">click here</a>
       </span>`,
   },
   {
-    question: "What is the bus schedule for CLARKSON SHUTTLE & SUNY POTSDAM?",
+    question: "What is the bus schedule for CLARKSON SHUTTLE ?",
     answer: `
-      <h2><b>Clarkson and SUNY Potsdam Bus Schedules</b></h2>
       <div className="flex flex-col gap-4 items-center justify-center mt-4">
         <h3><b>Clarkson Shuttle</b></h3>
         <img src=${clarksonShuttle} alt="Clarkson Shuttle Schedule" className="object-contain"/>
+       <a style="color:#0f3375;" href="https://www.slcnypublictransit.com/sites/default/files/busSchedules/route68-4Aug.jpg">click here</a>
       </div>
+     `,
+  },
+  {
+    question: "What is the bus schedule for SUNY POTSDAM ?",
+    answer: `
       <div className="flex flex-col gap-4 items-center justify-center mt-4">
         <h3><b>SUNY Potsdam Bear Shuttle</b></h3>
         <img src=${sunyPotsdamShuttle} alt="SUNY Potsdam Shuttle Schedule" className="object-contain" />
+        <a style="color:#0f3375;" href="https://www.slcnypublictransit.com/sites/default/files/busSchedules/route67-4Aug.jpg">click here</a>
       </div>`,
   },
 ];

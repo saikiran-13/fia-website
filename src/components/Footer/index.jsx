@@ -1,10 +1,64 @@
-import React from 'react'
-import wave from '../../assets/wave.svg'
+import React from 'react';
+import wave from '../../assets/wave.svg'; // Adjust the import path if needed
+import { moreInformationList, connectList, socialMediaList, address } from './data';
+import Icon from '../Icon';
+
 const Footer = () => {
-
     return (
-        <div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,224L48,186.7C96,149,192,75,288,85.3C384,96,480,192,576,202.7C672,213,768,139,864,117.3C960,96,1056,128,1152,149.3C1248,171,1344,181,1392,186.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg></div>
-    )
-}
+        <div
+            className="flex items-end relative text-center max-h-[550px] h-[400px]"
+            style={{
+                backgroundImage: `url(${wave})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center bottom 10%',
+                backgroundRepeat: 'no-repeat',
+            }}
+        >
+            <div className="flex relative z-10 px-4 w-full text-left justify-between items-end text-color1 pb-2">
+                <div className='w-[40%] ml-2 font-medium'>
+                    <div className='flex gap-2 text-xl'>
+                        <Icon icon={address.icon} />
+                        <span>{address.label}</span>
+                        <span>{address.value}</span>
+                    </div>
+                    <div className="mb-6 mt-2">
+                        <h2 className="text-lg font-semibold mb-4">Contact Us</h2>
+                        {connectList.map((item, index) => (
+                            <div className='flex text-color6 font-medium' key={index} >
+                                <span>{item.label}</span>&nbsp;
+                                <div className='cursor-pointer' onClick={() => window.open(item.link, '_blank')}>
+                                    <span>{item.value}</span>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
 
-export default Footer
+                </div>
+                <div className='w-[30%] gap-2'>
+                    <h3 className="text-lg font-semibold mb-4 ">Follow Us</h3>
+                    <div className="flex mb-6 gap-2">
+                        {socialMediaList.map((item, index) => (
+                            <Icon key={index} icon={item.icon} onClick={() => window.open(item.link, '_blank')} />
+                        ))}
+
+                    </div>
+                    <span>&copy; Friends of India Association</span>
+                </div>
+
+                <div className='w-[30%] flex flex-col gap-1'>
+                    <h3 className="text-lg font-semibold mb-4">More Information:</h3>
+                    <div className='flex flex-wrap gap-4'  >
+                        {moreInformationList.map((item, index) => (
+                            <div className=' border-b-[1px] border-b-color6 cursor-pointer'><a href={item.link} target="_blank" rel="noopener noreferrer" className="text-color6 font-medium">{item.label}</a></div>
+                        ))}
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    );
+};
+
+export default Footer;
