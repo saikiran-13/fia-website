@@ -1,47 +1,20 @@
-export const images = [
-  {
-    src: "https://via.placeholder.com/600x400",
-    alt: "Placeholder Image 1",
-    value: "600x400",
-  },
-  {
-    src: "https://via.placeholder.com/400x600",
-    alt: "Placeholder Image 2",
-    value: "400x600",
-  },
-  {
-    src: "https://via.placeholder.com/800x600",
-    alt: "Placeholder Image 3",
-    value: "800x600",
-  },
-  {
-    src: "https://via.placeholder.com/600x800",
-    alt: "Placeholder Image 4",
-    value: "600x800",
-  },
-  {
-    src: "https://via.placeholder.com/700x500",
-    alt: "Placeholder Image 5",
-    value: "700x500",
-  },
-  {
-    src: "https://via.placeholder.com/500x700",
-    alt: "Placeholder Image 6",
-    value: "500x700",
-  },
-  {
-    src: "https://via.placeholder.com/600x600",
-    alt: "Placeholder Image 7",
-    value: "600x600",
-  },
-  {
-    src: "https://via.placeholder.com/800x800",
-    alt: "Placeholder Image 8",
-    value: "800x800",
-  },
-  {
-    src: "https://via.placeholder.com/1200x800",
-    alt: "Placeholder Image 9",
-    value: "1200x800",
-  },
-];
+export const galleryImages = {
+  "https://drive.google.com/thumbnail?id=1bBT9GJ7pvJ6MzmkTONqwTLzixUndQDvE":
+    "FALL_POTLUCK_2023_PHOTOS_LINKS",
+  "https://drive.google.com/thumbnail?id=1bNExu4OlqLRhiT0i9FHmzX2BJKYP_rZJ":
+    "DIWALI_2023",
+  "https://drive.google.com/thumbnail?id=18fHwTYo0pOyaHpUL_XFPCUcwIKaOKNSq":
+    "BADMINTON_TOURNAMENT_2024",
+  "https://drive.google.com/thumbnail?id=1uYum7TFqNqHivaalOF1TCPUwtWp_n1fl":
+    "Spring_Potluck_2024",
+  "https://drive.google.com/thumbnail?id=1IwlJ3R3WQr33FQzDQ8rIFpTxEksKWRoF":
+    "SPRING_SEMESTER_END_PARTY_2024",
+  "https://drive.google.com/thumbnail?id=17fJ5Zem7-2kWYNv8xJLYf9uEeMsNVVSM":
+    "INDEPENDENCE_DAY_2023",
+  "https://drive.google.com/thumbnail?id=1Ot78pY-DkGf12Thsd7L4QME7Hzxvj6ac":
+    "OPEN_HOUSE_EVENT_2024",
+  "https://drive.google.com/thumbnail?id=1qTvZyyWDRqAwzTdp_lqHtlAnFDgan_Jv":
+    "Satsang_spiritual_2024",
+  "https://drive.google.com/thumbnail?id=1wdTESSp6Y5YquKNExHuq1a920lURz0Ck":
+    "PHALANX_AWARDS_2024",
+};
