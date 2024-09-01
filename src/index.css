@@ -26,6 +26,12 @@
  /* Change border color to color5 on hover */
 }
 
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
 
 
 
