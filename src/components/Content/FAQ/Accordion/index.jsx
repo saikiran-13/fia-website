@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import parse from 'html-react-parser'
 const Accordion = ({ faqs }) => {
     return (
-        <div className="w-[600px] border-1 rounded-lg shadow-md shadow-color3 border-color4">
+        <div className="w-full lg:w-[600px] border-1 rounded-lg shadow-md shadow-color3 border-color4">
             {faqs.map((faq, index) => (
                 <AccordionItem key={index} faq={faq} index={index} />
             ))}

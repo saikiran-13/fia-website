@@ -14,10 +14,10 @@ const Typewriter_ = () => {
 
     return (
         <React.Fragment>
-            <span className='text-xl font-medium text-color4 opacity-75'>
+            <span className='text-xl lg:text-2xl font-medium text-color4 opacity-75'>
                 We aim to create a platform that not only nurtures academic success but also strengthens community bonds by{' '}
             </span>
-            <span className='text-xl font-medium text-color6'>
+            <span className='text-xl lg:text-2xl font-medium text-color6'>
                 {text}
                 <span style={{ color: 'inherit', animation: 'blink 1s step-end infinite' }}>
                     {'|'}

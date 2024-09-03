@@ -62,3 +62,15 @@ export const connectList = [
     value: "+1 (315) 603-7266",
   },
 ];
+
+export const mobileConnectList = [
+  {
+    icon: "location",
+    link: "https://www.google.com/maps/place/Walker+Center,+8+Clarkson+Ave,+Potsdam,+NY+13676,+USA/",
+  },
+  {
+    icon: "email",
+    link: "mailto:fia@clarkson.edu",
+  },
+  { icon: "telephone", link: "https://wa.me/13156037266" },
+];

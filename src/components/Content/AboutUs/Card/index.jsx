@@ -18,7 +18,7 @@ const Card = ({ logo, heading, description, btnLabel = 'Show More' }) => {
     }, [description]);
 
     return (
-        <div className="relative flex flex-col mt-6 bg-color1 text-color3 shadow-md bg-clip-border rounded-xl w-96">
+        <div className="relative flex flex-col mt-6 bg-color1 text-color3 shadow-md bg-clip-border rounded-xl w-full lg:w-96 ">
             <div className="p-6">
                 <div className='flex gap-2'>
                     <div className='w-[28px] h-[28px] items-center justify-center'>

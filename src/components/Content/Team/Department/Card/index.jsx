@@ -1,11 +1,9 @@
 import React from 'react'
 import Icon from '../../../../Icon'
 const Card = ({ name, role, image, links }) => {
-    debugger
-    console.log('links', links, 'role', role)
 
     return (
-        <div className="w-[150px] min-h-[300px] items-start text-center mr-10 mb-10">
+        <div className="w-[150px] min-h-[300px] items-start text-center mx-auto mb-10 lg:mr-10 lg:mb-10 lg:mx-0">
             <div className="relative mx-auto mb-4 w-36 h-36 rounded-full border-2 border-color3 shadow-lg items-center justify-center overflow-hidden">
                 <img className="w-full h-full transform transition-transform duration-300 hover:scale-125 hover:grayscale object-cover" src={image} alt={`${name} Avatar`} />
             </div>

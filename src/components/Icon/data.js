@@ -9,6 +9,7 @@ import gmail from "../../assets/gmail.png";
 import discord from "../../assets/discord.png";
 import telegram from "../../assets/telegram.png";
 import location from "../../assets/location.png";
+import telephone from "../../assets/telephone.png";
 
 export const icons = {
   clarkson: clarkson,
@@ -22,4 +23,5 @@ export const icons = {
   discord: discord,
   telegram: telegram,
   location: location,
+  telephone: telephone,
 };

@@ -8,7 +8,7 @@ const JoinUs = ({ isOpen, onClose, onAccept }) => {
             id="default-modal"
             tabIndex="-1"
             aria-hidden="true"
-            className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 px-5 lg:mx-0"
         >
             <div className="relative p-4 w-full max-w-2xl bg-color1 rounded-lg shadow">
                 <div className="flex items-center justify-between p-4 border-b rounded-t border-color3">

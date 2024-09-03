@@ -14,7 +14,7 @@ const ImageGalleryPage = () => {
         }
     })
     return (
-        <div className='flex flex-col w-full h-fit px-20 py-12 justify-center items-center gap-10'>
+        <div className='flex flex-col w-full h-fit px-4 py-2 lg:px-20 lg:py-12 justify-center items-center gap-10'>
             <Title title={'Image Gallery Listing'} />
             {galleryImages?.length ?
                 <ImageMasonry images={galleryImages} /> : null}
