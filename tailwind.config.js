@@ -15,9 +15,11 @@ export default {
       },
       backgroundImage: {
         "indian-gradient": "linear-gradient(90deg, #FF9933, #FFFFFF, #138808)",
+        "dark-gradient": "linear-gradient(to right, #ec2F4B, #009FFF)",
       },
       textColor: {
         "indian-gradient": "transparent",
+        "dark-gradient": "transparent",
       },
       backgroundClip: {
         text: "text",

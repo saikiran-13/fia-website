@@ -17,7 +17,7 @@ const Typewriter_ = () => {
             <span className='text-xl lg:text-2xl font-medium text-color4 opacity-75'>
                 We aim to create a platform that not only nurtures academic success but also strengthens community bonds by{' '}
             </span>
-            <span className='text-xl lg:text-2xl font-medium text-color6'>
+            <span className='text-xl lg:text-2xl font-medium text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 animate-pulse'>
                 {text}
                 <span style={{ color: 'inherit', animation: 'blink 1s step-end infinite' }}>
                     {'|'}
