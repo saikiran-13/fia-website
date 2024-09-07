@@ -23,8 +23,8 @@ function App() {
   useEffect(() => {
     AOS.init({
       offset: 200,
-      delay: 100,
-      duration: 1000,
+      delay: 50,
+      duration: 700,
       once: true,
     });
   }, []);
