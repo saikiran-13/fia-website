@@ -19,7 +19,7 @@ const ImageMasonry = ({ images, handleClick = null, src = "home" }) => {
     }, []);
 
     return (
-        <div className="p-4 w-full bg-color2 rounded-md shadow-lg shadow-color2 glassmorphism-hover:hover">
+        <div className={`p-4 w-full ${src === 'home' ? 'bg-color2' : 'bg-[transparent]'} rounded-md shadow-lg shadow-color2 glassmorphism-hover:hover`}>
             <ResponsiveMasonry
                 columnsCountBreakPoints={{
                     640: 1,   // Small screens (sm)
