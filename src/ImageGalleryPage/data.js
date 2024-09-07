@@ -1,5 +1,5 @@
 export const eventPhotos = {
-  FALL_POTLUCK_2023_PHOTOS_LINKS: [
+  FALL_POTLUCK_2023: [
     "https://drive.google.com/thumbnail?id=1aNzzehlwVLS-p4Ky2Z3_JcoGybQA-u9u",
     "https://drive.google.com/thumbnail?id=1a_p7tGs0GT6eXoZ6s-J_R8GQ2AZQZCYt",
     "https://drive.google.com/thumbnail?id=1aiDFpxtiS4ujlsMyaCk2PwBcgkhEcEIO",

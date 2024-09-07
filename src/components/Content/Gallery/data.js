@@ -1,20 +1,21 @@
+import FALL_POTLUCK_2023 from "../../../assets/Fall_Potluck_2023.jpg";
+import DIWALI_2023 from "../../../assets/DIWALI_2023.jpg";
+import BADMINTON_TOURNAMENT_2024 from "../../../assets/BADMINTON_TOURNAMENT_2024.jpg";
+import Spring_Potluck_2024 from "../../../assets/Spring_Potluck_2024.jpg";
+import SPRING_SEMESTER_END_PARTY_2024 from "../../../assets/SPRING_SEMESTER_END_PARTY_2024.jpg";
+import INDEPENDENCE_DAY_2023 from "../../../assets/INDEPENDENCE_DAY_2023.jpg";
+import OPEN_HOUSE_EVENT_2024 from "../../../assets/OPEN_HOUSE_EVENT_2024.jpg";
+import Satsang_spiritual_2024 from "../../../assets/Satsang_spiritual_2024.jpg";
+import PHALANX_AWARDS_2024 from "../../../assets/PHALANX_AWARDS_2024.jpg";
+
 export const galleryImages = {
-  "https://drive.google.com/thumbnail?id=1bBT9GJ7pvJ6MzmkTONqwTLzixUndQDvE":
-    "FALL_POTLUCK_2023_PHOTOS_LINKS",
-  "https://drive.google.com/thumbnail?id=1bNExu4OlqLRhiT0i9FHmzX2BJKYP_rZJ":
-    "DIWALI_2023",
-  "https://drive.google.com/thumbnail?id=18fHwTYo0pOyaHpUL_XFPCUcwIKaOKNSq":
-    "BADMINTON_TOURNAMENT_2024",
-  "https://drive.google.com/thumbnail?id=1uYum7TFqNqHivaalOF1TCPUwtWp_n1fl":
-    "Spring_Potluck_2024",
-  "https://drive.google.com/thumbnail?id=1IwlJ3R3WQr33FQzDQ8rIFpTxEksKWRoF":
-    "SPRING_SEMESTER_END_PARTY_2024",
-  "https://drive.google.com/thumbnail?id=17fJ5Zem7-2kWYNv8xJLYf9uEeMsNVVSM":
-    "INDEPENDENCE_DAY_2023",
-  "https://drive.google.com/thumbnail?id=1Ot78pY-DkGf12Thsd7L4QME7Hzxvj6ac":
-    "OPEN_HOUSE_EVENT_2024",
-  "https://drive.google.com/thumbnail?id=1qTvZyyWDRqAwzTdp_lqHtlAnFDgan_Jv":
-    "Satsang_spiritual_2024",
-  "https://drive.google.com/thumbnail?id=1wdTESSp6Y5YquKNExHuq1a920lURz0Ck":
-    "PHALANX_AWARDS_2024",
+  FALL_POTLUCK_2023: FALL_POTLUCK_2023,
+  DIWALI_2023: DIWALI_2023,
+  BADMINTON_TOURNAMENT_2024: BADMINTON_TOURNAMENT_2024,
+  Spring_Potluck_2024: Spring_Potluck_2024,
+  SPRING_SEMESTER_END_PARTY_2024: SPRING_SEMESTER_END_PARTY_2024,
+  INDEPENDENCE_DAY_2023: INDEPENDENCE_DAY_2023,
+  OPEN_HOUSE_EVENT_2024: OPEN_HOUSE_EVENT_2024,
+  Satsang_spiritual_2024: Satsang_spiritual_2024,
+  PHALANX_AWARDS_2024: PHALANX_AWARDS_2024,
 };

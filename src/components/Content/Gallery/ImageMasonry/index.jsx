@@ -4,8 +4,9 @@ import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 import { getColor } from '../../../../utility';
 import Image from '../../../Image';
-const ImageMasonry = ({ images, handleClick = null, src = "home" }) => {
+const ImageMasonry = ({ images, handleClick = null, src = "home", findKeyByValue = false }) => {
     const [loaded, setLoaded] = useState(false);
+    console.log('images', images)
 
     useEffect(() => {
         // Simulate image loading
@@ -42,6 +43,9 @@ const ImageMasonry = ({ images, handleClick = null, src = "home" }) => {
                                     alt={`Image ${index + 1} not found`}
                                     className="w-full h-auto rounded-lg"
                                 />
+                                {
+                                    src === 'home' && <div className='bg-[rgba(0,0,0,0.6)] w-full flex py-2 absolute bottom-0 m-auto items-center justify-center'><span className='text-color1 text-center font-semibold'>{findKeyByValue(image)}</span></div>
+                                }
 
                                 {/* View All text overlay */}
                                 {src === 'home' && <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-lg font-bold opacity-0 transition-opacity duration-300 group-hover:opacity-100">

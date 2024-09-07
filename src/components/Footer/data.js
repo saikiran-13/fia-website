@@ -45,7 +45,7 @@ export const socialMediaList = [
 ];
 
 export const address = {
-  label: "Address:",
+  label: "",
   icon: "location",
   value: "8 Clarkson Ave, Potsdam, NY 13699",
 };
