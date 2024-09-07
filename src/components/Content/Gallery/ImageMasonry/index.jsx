@@ -3,7 +3,8 @@ import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 import { getColor } from '../../../../utility';
-const ImageMasonry = ({ images, handleClick = null }) => {
+import Image from '../../../Image';
+const ImageMasonry = ({ images, handleClick = null, src = "home" }) => {
     const [loaded, setLoaded] = useState(false);
 
     useEffect(() => {
@@ -30,14 +31,24 @@ const ImageMasonry = ({ images, handleClick = null }) => {
                 <Masonry gutter="16px">
                     {loaded ? (
                         images.map((image, index) => (
-                            <div onClick={handleClick ? () => handleClick(image) : null} key={index}>
-                                <img
+                            <div
+                                onClick={handleClick ? () => handleClick(image) : null}
+                                key={index}
+                                className="relative group w-full h-auto rounded-lg shadow-lg transition-shadow duration-300 hover:shadow-2xl"
+                            >
+                                <Image
                                     key={index}
                                     src={image}
                                     alt={`Image ${index + 1} not found`}
-                                    className="w-full h-auto rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
+                                    className="w-full h-auto rounded-lg"
                                 />
+
+                                {/* View All text overlay */}
+                                {src === 'home' && <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white text-lg font-bold opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                                    View All
+                                </div>}
                             </div>
+
                         ))
                     ) : (
                         Array(8).fill(0).map((_, index) => (

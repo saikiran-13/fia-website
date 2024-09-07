@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTab } from '../../../provider/TabProvider'
 import Typewriter from './Typewriter'
-import sideImage from '../../../assets/sideImage.svg'
+import sideImage from '../../../assets/sideImage.png'
 const Home = () => {
     const { activeTab, setActiveTab } = useTab();
 
@@ -34,9 +34,10 @@ const Home = () => {
 
             </div>
             <div className='hidden items-start lg:flex lg:w-2/5'>
-                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                {/* <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                     <path fill="#77B6FB" d="M60.8,-20.1C66.9,-1,51.7,24.6,30.4,39.4C9.2,54.3,-18.1,58.3,-36,46.1C-54,33.9,-62.6,5.4,-55.1,-15.8C-47.5,-36.9,-23.8,-50.6,1.8,-51.2C27.4,-51.8,54.7,-39.2,60.8,-20.1Z" transform="translate(100 100)" />
-                </svg>
+                </svg> */}
+                <img src={sideImage} alt="img not found" className='animate-pulse' />
             </div>
         </div>
     )
