@@ -2,12 +2,18 @@ import React from 'react';
 import { moreInformationList, connectList, mobileConnectList, socialMediaList, address } from './data';
 import Icon from '../Icon';
 import wave from '@/assets/wave.svg';
+
 const Footer = () => {
+
+    // Conditional background image based on environment
+    const backgroundImageUrl = import.meta.env.MODE === 'development'
+        ? `url(${wave})` // Local path during development
+        : `url('/assets/wave.svg')`; // Absolute path in production
     return (
         <div
             className="flex items-end relative text-center max-h-[550px] h-[400px]"
             style={{
-                backgroundImage: `url(${wave})`,
+                backgroundImage: backgroundImageUrl,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center bottom 10%',
                 backgroundRepeat: 'no-repeat',
