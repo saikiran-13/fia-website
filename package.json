@@ -20,7 +20,7 @@
     "react-perfect-scrollbar": "^1.5.8",
     "react-responsive-masonry": "^2.3.0",
     "react-router-dom": "^6.26.1",
-    "`react-simple-typewriter`": "^5.0.1",
+    "react-simple-typewriter": "^5.0.1",
     "react-vertical-timeline-component": "^3.6.0",
     "styled-components": "^6.1.12"
   },
