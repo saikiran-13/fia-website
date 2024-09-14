@@ -1,14 +1,13 @@
 import React from 'react';
 import { moreInformationList, connectList, mobileConnectList, socialMediaList, address } from './data';
 import Icon from '../Icon';
-
+import wave from '@/assets/wave.svg';
 const Footer = () => {
-    //    \public\wave.svg
     return (
         <div
             className="flex items-end relative text-center max-h-[550px] h-[400px]"
             style={{
-                backgroundImage: `url(../../../public/wave.svg)`,
+                backgroundImage: `url(${wave})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center bottom 10%',
                 backgroundRepeat: 'no-repeat',
