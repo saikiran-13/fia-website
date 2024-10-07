@@ -2,31 +2,25 @@
 export const events = {
   Upcoming: [
     {
-      title: "Kayaking Adventure",
-      timeline: "August 31, 10 AM, Raquette River",
+      title: "Diwali Night",
+      timeline: "November 2nd, 04 PM, Student Center Forum ",
       description:
-        "Join us for an exciting kayaking adventure on the beautiful Raquette River. Experience the thrill of the water, connect with fellow members, and enjoy a day of fun and exploration.",
+        "Join us for a night of lights, music, and dance to celebrate Diwali, the festival of lights. There will be performances, traditional food, and much more. We look forward to seeing you there!",
     },
+    {
+      title: "Melody Nights",
+      timeline: "November 25th, 06 PM, Student Center Forum ",
+      description:
+        "an enchanting evening where we come together to celebrate the beauty of music. Join us as we sing and listen to a selection of wonderful melody songs, creating a night filled with harmony, joy, and unforgettable memories.",
+    },
+  ],
+  Past: [
     {
       title: "Fall Potluck",
       timeline: "September 7th, 04 PM, Student Center Forum ",
       description:
         "Join us for the Fall Semester Potluck, celebrating India’s diverse flavors with homemade dishes prepared by our members. It's the perfect chance to enjoy authentic Indian cuisine and connect with the community in a warm, cultural gathering.",
     },
-    {
-      title: "Melody Nights",
-      timeline: "October 5th, 06 PM, Student Center Forum ",
-      description:
-        "an enchanting evening where we come together to celebrate the beauty of music. Join us as we sing and listen to a selection of wonderful melody songs, creating a night filled with harmony, joy, and unforgettable memories.",
-    },
-    {
-      title: "Diwali Night",
-      timeline: "November 2nd, 04 PM, Student Center Forum ",
-      description:
-        "Join us for a night of lights, music, and dance to celebrate Diwali, the festival of lights. There will be performances, traditional food, and much more. We look forward to seeing you there!",
-    },
-  ],
-  Past: [
     {
       title: "Semester End Party",
       timeline: "May 4th, 05 PM, Cheel Barbens Room",
