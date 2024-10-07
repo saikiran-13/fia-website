@@ -21,7 +21,7 @@ export const events = {
     },
     {
       title: "Diwali Night",
-      timeline: "November 9th, 04 PM, Student Center Forum ",
+      timeline: "November 2nd, 04 PM, Student Center Forum ",
       description:
         "Join us for a night of lights, music, and dance to celebrate Diwali, the festival of lights. There will be performances, traditional food, and much more. We look forward to seeing you there!",
     },
